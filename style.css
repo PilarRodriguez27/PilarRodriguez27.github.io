@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(illustration-graphic-of-aesthetic-background-template-with-subtle-pastel-colors-and-nature-motifs-vector.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden; /* Oculta la barra de desplazamiento */
+}
+
+html{
+  background-color: rgba(236, 210, 177, 0.966);
+}
+h1,
+h2,
+p {
+  background-color: rgba(241, 229, 229, 0.61);
+  padding: 20px;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(146, 117, 54, 0.966);
+  margin: 20px 0;
+  width: 100%;
+}
+
+.imagenperfil,
+.fotohabilidades {
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  border: 7px solid beige;
+  margin: 20px 0;
+}
+
+.contacto {
+  width: 100%;
+  display: inline-block;
+  margin: 5%;
+}
+
+#gmail {
+  margin-left: 5%;
+}
+
+#linkedin {
+  margin: 5%;
+}
